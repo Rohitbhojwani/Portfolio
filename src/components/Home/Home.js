@@ -4,6 +4,13 @@ import homeLogo from "../../Assets/home-main.svg";
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
+import {
+  AiFillGithub,
+  AiOutlineTwitter,
+  AiFillInstagram,
+  AiFillMail,
+} from "react-icons/ai";
+import { FaLinkedinIn } from "react-icons/fa";
 
 function Home() {
   return (
@@ -22,7 +29,7 @@ function Home() {
 
               <h1 className="heading-name">
                 I'M
-                <strong className="main-name"> SOUMYAJIT BEHERA</strong>
+                <strong className="main-name"> ROHIT BHOJWANI</strong>
               </h1>
 
               <div style={{ padding: 50, textAlign: "left" }}>
@@ -38,6 +45,7 @@ function Home() {
                 style={{ maxHeight: "450px" }}
               />
             </Col>
+            
           </Row>
         </Container>
       </Container>

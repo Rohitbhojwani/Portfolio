@@ -13,6 +13,12 @@ import {
   SiPytorch,
   SiFirebase,
   SiNextdotjs,
+  SiJava,
+  SiDjango,
+  SiMaterialui,
+  SiPycharm,
+  SiHtml5,
+  SiCss3,
 } from "react-icons/si";
 
 function Techstack() {
@@ -22,19 +28,31 @@ function Techstack() {
         <CgCPlusPlus />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 />
+        <DiPython />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
+        <SiJava />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiHtml5 />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiCss3 />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiJavascript1 />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiReact />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
+        <DiNodejs />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiNextdotjs />
+        <SiMaterialui />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiMongodb />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiGit />
@@ -43,10 +61,10 @@ function Techstack() {
         <SiFirebase />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
+        <SiDjango />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiPytorch />
+        <SiPycharm />
       </Col>
     </Row>
   );

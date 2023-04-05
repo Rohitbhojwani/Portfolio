@@ -7,14 +7,8 @@ import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
 import { o1 } from "../../Assets/Projects/O1.jpeg";
-import { ieee } from "../../Assets/Projects/IEEE.jpg";
-import ProjectCard from "../Projects/ProjectCards";
-import EducationCard from "./ExperienceCard";
-import blog from "../../Assets/Projects/blog.jpg";
-import Chat from "../../Assets/Projects/Chat.jpeg";
-import Music from "../../Assets/Projects/Music.png";
+import { e2 } from "../../Assets/Projects/IEEE.jpg";
 import Url from "../../Assets/Projects/Url.jpeg";
-import Weather from "../../Assets/Projects/Weather .png";
 import ExperienceCard from "./ExperienceCard";
 import Education from './Education';
 
@@ -77,6 +71,33 @@ function About() {
                 <Col md={5} className="project-card">
                   <ExperienceCard
                     imgPath={Url}
+                    title="IEEE Bombay Section"
+                    description="Full Stack Developer Intern"
+                    duration="Dec 2022 to Feb 2023 (3-months)"
+                    subtext="Worked as an Full Stack Developer to design and develop a web app using React, Node and other technologies."
+                  />
+                </Col>
+
+              </Row>
+
+              <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
+                Volunteer Experience
+              </h1>
+              <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
+                <Col md={5} className="project-card">
+                  <ExperienceCard
+                    imgPath={Url}
+                    title="Catalysing Dream and Beyond " 
+                    description="Backend Intern"
+                    duration="Feb 2022 to Jul 2022 (6-months)"
+                    subtext="Worked as an Backend Web Developer to design Backend using Django, RestFramework and some other libraries."
+                  />
+                </Col>
+
+                <Col md={5} className="project-card">
+                  <ExperienceCard
+                    imgPath={e2}
                     title="IEEE Bombay Section"
                     description="Full Stack Developer Intern"
                     duration="Dec 2022 to Feb 2023 (3-months)"

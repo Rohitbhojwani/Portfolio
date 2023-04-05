@@ -11,14 +11,20 @@ function AboutCard() {
             Hi Everyone, I am <span className="purple">Rohit Bhojwani </span>
             from <span className="purple"> Nagpur, India.</span>
             <br />
-            I am currently 3rd year B.Tech student of Computer Science and Engineering at Shri Ramdeobaba College of Engineering 
-            and Management, Nagpur. I'm Web Developer and Blockchain enthusiast. I am looking forward
-            to gain competency and exposure in it.
+            I'm passionate Full Stack web developer, a Competitive Programmer
+            having an experience of web applications with Python, Django,
+            Node.js, Express.js, RestFramework, Javascript, React.js and many
+            more. <br/>
+            I am currently a 3rd year B.Tech student of Computer Science and
+            Engineering at Shri Ramdeobaba College of Engineering and
+            Management, Nagpur.
+             {/* I'm Web Developer and Blockchain enthusiast. I
+            am looking forward to gain competency and exposure in it. */}
             <br />
             <br />
-            Apart from coding, some other activities that I love to do!
+            {/* Apart from coding, some other activities that I love to do! */}
           </p>
-          <ul>
+          {/* <ul>
             <li className="about-activity">
               <ImPointRight /> Playing Games
             </li>
@@ -28,10 +34,7 @@ function AboutCard() {
             <li className="about-activity">
               <ImPointRight /> Travelling
             </li>
-          </ul>
-
-          
-          
+          </ul> */}
         </blockquote>
       </Card.Body>
     </Card>

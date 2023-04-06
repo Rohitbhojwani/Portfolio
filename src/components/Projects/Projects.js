@@ -51,8 +51,7 @@ function Projects() {
               isBlog={false}
               title="URL-Shortner"
               description="A Web-App which converts long URL into a short URL, and User gets analysis for each shortened Link"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"
+              ghLink="https://github.com/Rohitbhojwani/URL-Shortner"
             />
           </Col>
 
@@ -61,7 +60,7 @@ function Projects() {
               imgPath={Weather}
               isBlog={false}
               title="Weather App"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
+              description="A Web App designed in Javascript which uses API to show the cuurent temperature of a city."
               ghLink="https://github.com/Rohitbhojwani/weather-app"
 
             />
@@ -72,7 +71,7 @@ function Projects() {
               imgPath={blog}
               isBlog={false}
               title="Blog App"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
+              description="A Blog Website which have the Login and Signup functionalities which allows users to post a blog and do CRUD operations. Designed using ReactJS, MongoDB and other tech stack."
               ghLink="https://github.com/Rohitbhojwani/BlogApp"
             />
           </Col>

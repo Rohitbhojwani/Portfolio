@@ -10,7 +10,6 @@ import o1 from "../../Assets/Projects/O1-modified.png";
 import ieee  from "../../Assets/Projects/IEEE.jpg";
 import tcb from "../../Assets/Projects/tcb-modified.png";
 import gfg from "../../Assets/Projects/gfg-modified.png"
-// import oo1 from "../../Assets/Projects/O1.jpeg"
 import ExperienceCard from "./ExperienceCard";
 import Education from './Education';
 
@@ -103,7 +102,7 @@ function About() {
                   <ExperienceCard
                     imgPath={tcb}
                     title="The CodeBreakers Club"
-                    description="Full Stack Developer Intern"
+                    description="Backend Lead"
                     duration="Aug 2021 - Oct 2022"
                     subtext="Worked as Backend Web Developer Lead to design club website and made DSA questions for CP Contest for club events hosted on CodeForces. Organised many events on Git, Blockchain, CP and many more"
                   />

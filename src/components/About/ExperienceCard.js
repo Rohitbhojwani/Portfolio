@@ -1,9 +1,5 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import { FaBold } from "react-icons/fa";
-// import Button from "react-bootstrap/Button";
-// import { CgWebsite } from "react-icons/cg";
-// import { BsGithub } from "react-icons/bs";
 
 function ExperienceCard(props) {
   return (

@@ -18,23 +18,10 @@ function AboutCard() {
             I am currently a 3rd year B.Tech student of Computer Science and
             Engineering at Shri Ramdeobaba College of Engineering and
             Management, Nagpur.
-             {/* I'm Web Developer and Blockchain enthusiast. I
-            am looking forward to gain competency and exposure in it. */}
             <br />
             <br />
             {/* Apart from coding, some other activities that I love to do! */}
           </p>
-          {/* <ul>
-            <li className="about-activity">
-              <ImPointRight /> Playing Games
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Travelling
-            </li>
-          </ul> */}
         </blockquote>
       </Card.Body>
     </Card>

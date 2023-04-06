@@ -6,9 +6,11 @@ import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
-import { o1 } from "../../Assets/Projects/O1.jpeg";
-import { e2 } from "../../Assets/Projects/IEEE.jpg";
-import Url from "../../Assets/Projects/Url.jpeg";
+import o1 from "../../Assets/Projects/O1-modified.png";
+import ieee  from "../../Assets/Projects/IEEE.jpg";
+import tcb from "../../Assets/Projects/tcb-modified.png";
+import gfg from "../../Assets/Projects/gfg-modified.png"
+// import oo1 from "../../Assets/Projects/O1.jpeg"
 import ExperienceCard from "./ExperienceCard";
 import Education from './Education';
 
@@ -60,21 +62,23 @@ function About() {
 
                 <Col md={5} className="project-card">
                   <ExperienceCard
-                    imgPath={Url}
+                    imgPath={o1}
                     title="Catalysing Dream and Beyond " 
                     description="Backend Intern"
-                    duration="Feb 2022 to Jul 2022 (6-months)"
+                    duration="Feb 2022 - Jul 2022 (6-months)"
                     subtext="Worked as an Backend Web Developer to design Backend using Django, RestFramework and some other libraries."
+                    imgSize="200"
                   />
                 </Col>
 
                 <Col md={5} className="project-card">
                   <ExperienceCard
-                    imgPath={Url}
+                    imgPath={ieee}
                     title="IEEE Bombay Section"
                     description="Full Stack Developer Intern"
-                    duration="Dec 2022 to Feb 2023 (3-months)"
+                    duration="Dec 2022 - Feb 2023 (3-months)"
                     subtext="Worked as an Full Stack Developer to design and develop a web app using React, Node and other technologies."
+                    imgSize="200"
                   />
                 </Col>
 
@@ -87,21 +91,31 @@ function About() {
 
                 <Col md={5} className="project-card">
                   <ExperienceCard
-                    imgPath={Url}
-                    title="Catalysing Dream and Beyond " 
-                    description="Backend Intern"
-                    duration="Feb 2022 to Jul 2022 (6-months)"
-                    subtext="Worked as an Backend Web Developer to design Backend using Django, RestFramework and some other libraries."
+                    imgPath={tcb}
+                    title="The CodeBreakers Club" 
+                    description="President"
+                    duration="Nov 2022 - Present"
+                    subtext="Leading Club as a President and working on development and expansion of The Code Breakers club"
                   />
                 </Col>
 
                 <Col md={5} className="project-card">
                   <ExperienceCard
-                    imgPath={e2}
-                    title="IEEE Bombay Section"
+                    imgPath={tcb}
+                    title="The CodeBreakers Club"
                     description="Full Stack Developer Intern"
-                    duration="Dec 2022 to Feb 2023 (3-months)"
-                    subtext="Worked as an Full Stack Developer to design and develop a web app using React, Node and other technologies."
+                    duration="Aug 2021 - Oct 2022"
+                    subtext="Worked as Backend Web Developer Lead to design club website and made DSA questions for CP Contest for club events hosted on CodeForces. Organised many events on Git, Blockchain, CP and many more"
+                  />
+                </Col>
+
+                <Col md={5} className="project-card">
+                  <ExperienceCard
+                    imgPath={gfg}
+                    title="Geeks for Geeks Chapter"
+                    description="Full Stack Developer"
+                    duration="Sep 2022 - Mar 2023"
+                    subtext="Worked in Development of Club website and was a github repository maintainer for open source event 'Git-For-Geeks' and successfully maintained the repository and PRs"
                   />
                 </Col>
 

@@ -29,7 +29,7 @@ function Projects() {
               description="A Decentralized Platform for Open Source developers. It provides a platform for developers to find projects to work
               on and get rewarded for their work. It also provides a platform for project owners to find developers to work on their
               projects and pay them in crypto. Developers can post their projects issues and get it solved by other developers."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
+              ghLink="https://github.com/Rohitbhojwani/GithubCrypt"
               demoLink="https://githubcrypt.netlify.app/"
             />
           </Col>
@@ -40,8 +40,8 @@ function Projects() {
               isBlog={false}
               title="We-Chat"
               description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              ghLink="https://github.com/Rohitbhojwani/WeChat"
+
             />
           </Col>
 
@@ -73,8 +73,7 @@ function Projects() {
               isBlog={false}
               title="Blog App"
               description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              ghLink="https://github.com/Rohitbhojwani/BlogApp"
             />
           </Col>
 

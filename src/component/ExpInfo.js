@@ -13,15 +13,5 @@ const exp = [
     desc: 'Worked as an Backend Web Developer to design Backend using Django, RestFramework and some other libraries.',
     img: '/Images/O1-modified.png'
   },
-  // {
-  //   title:'The Bug Community',
-  //   timeLine:'November 2021-February 2022',
-  //   desc: 'TBC taught me how to deal and negotiate with clients. I worked on strict deadlines. TBC proved to be a great booster.'
-  // },
-  //   {
-  //   title:'Medi-Cape University ACM Student Chapter',
-  //   timeLine:'August 2021-August 2022',
-  //   desc: 'I was the Executive member of content team in (MU-ACM). I got my hands on new experiences. I wrote descriptive emails, whatsapp and event invitations etc. '
-  // },
 ]
 export default exp;

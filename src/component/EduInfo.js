@@ -17,10 +17,5 @@ const edu = [
       timeLine:'2016-2017',
       desc: 'TBC taught me how to deal and negotiate with clients. I worked on strict deadlines. TBC proved to be a great booster.'
     },
-    //   {
-    //   title:'Medi-Cape University ACM Student Chapter',
-    //   timeLine:'August 2021-August 2022',
-    //   desc: 'I was the Executive member of content team in (MU-ACM). I got my hands on new experiences. I wrote descriptive emails, whatsapp and event invitations etc. '
-    // },
   ]
   export default edu;

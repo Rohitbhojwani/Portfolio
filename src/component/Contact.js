@@ -3,28 +3,29 @@ import emailjs from "@emailjs/browser";
 import contact from "../assets/contact.png";
 import { Heading } from "@chakra-ui/react";
 import { Helmet } from "react-helmet-async";
+
 const Contact = () => {
   const form = useRef();
 
-  // const sendEmail = (e) => {
-  //   e.preventDefault();
+  const sendEmail = (e) => {
+    e.preventDefault();
 
-  //   emailjs
-  //     .sendForm(
-  //       "service_rt2eg5b",
-  //       "template_o0pigqt",
-  //       form.current,
-  //       "user_m0sMh3qvjp4HeTas3kAoH"
-  //     )
-  //     .then(
-  //       (result) => {
-  //         console.log(result.text);
-  //       },
-  //       (error) => {
-  //         console.log(error.text);
-  //       }
-  //     );
-  // };
+    emailjs
+      .sendForm(
+        "service_rt2eg5b",
+        "template_o0pigqt",
+        form.current,
+        "user_m0sMh3qvjp4HeTas3kAoH"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
 
   return (
     <>
@@ -93,7 +94,7 @@ const Contact = () => {
             ease-in-out
             m-0
             focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
-                id="umail"
+                id="email"
                 placeholder="Email address"
                 name="email"
               />
@@ -137,7 +138,7 @@ const Contact = () => {
                 Knock on my Gmail Doors!
               </label>
             </div>
-            <button
+            <button href="mailto:rbbhojwani123@gmail.com"
               type="submit"
               class="send-btn
           w-lg
@@ -157,6 +158,7 @@ const Contact = () => {
           "
           
             >
+              {/* <a href="mailto:rbbhojwani123@gmail.com"></a> */}
               Send
             </button>
           </form>

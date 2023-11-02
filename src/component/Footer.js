@@ -61,7 +61,7 @@ export default function Footer() {
 
         <div class="text-center p-4" style={{ background: "transparent" }}>
           Nagpur, India
-          {/* <a class="text-whitehite" href="/"> Sneha Farkya</a> */}
+          {/* <a class="text-whitehite" href="/"> abc/a> */}
         </div>
       </footer>
     </div>

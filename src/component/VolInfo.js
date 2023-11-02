@@ -20,10 +20,5 @@ const exp = [
       desc: 'Worked in Development of Club website and was a github repository maintainer for open source event "Git-For-Geeks" and successfully maintained the repository and PRs',
       img: '/Images/gfg-modified.png'
     },
-    //   {
-    //   title:'Medi-Cape University ACM Student Chapter',
-    //   timeLine:'August 2021-August 2022',
-    //   desc: 'I was the Executive member of content team in (MU-ACM). I got my hands on new experiences. I wrote descriptive emails, whatsapp and event invitations etc. '
-    // },
   ]
   export default exp;

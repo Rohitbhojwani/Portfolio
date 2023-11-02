@@ -1,13 +1,13 @@
 import funds from '../assets/Projects/Fund.png'
 import gtihubcrypt from '../assets/Projects/GithubCrypt.png'
-import workwise from '../assets/Projects/workwisw.png'
+import developersHub from '../assets/Projects/developersHub.png'
 import chat from '../assets/Projects/Chat.jpeg'
-import weather from '../assets/Projects/Weather .png'
+import medbuddy from '../assets/Projects/medbuddy.png'
 import url from '../assets/Projects/Url.jpeg'
 
 const work = [
   {
-    image:workwise,
+    image:developersHub,
     title:'Developers Hub',
     link:'https://github.com/Rohitbhojwani/Developers-Hub/tree/master',
     desc:'A web application which connects job seekers and employers. Job seekers can search for openings.',
@@ -16,6 +16,20 @@ const work = [
         one:'Next.js',
         two:'Django',
         three:'Postgres',
+        
+      }
+    ]
+  },
+  {
+    image:medbuddy,
+    title:'Medi-Buddy',
+    link:'https://github.com/Rohitbhojwani/MedBuddy',
+    desc:'A platform for users to store, trade and give access to their medical records.',
+    tags:[
+      {
+        one:'React',
+        two:'Node',
+        three:'Flask',
         
       }
     ]
@@ -72,20 +86,6 @@ const work = [
         one:'JavaScript',
         two:'React',
         three:'CSS3',
-        
-      }
-    ]
-  },
-  {
-    image:weather,
-    title:'Weather App',
-    link:'https://github.com/Rohitbhojwani/weather-app',
-    desc:'A Web App which show the cuurent temperature, weather conditions, and the minimum and maximum temperature of a city.',
-    tags:[
-      {
-        one:'Html',
-        two:'CSS5',
-        three:'JavaScript',
         
       }
     ]
